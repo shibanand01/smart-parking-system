@@ -20,13 +20,8 @@ public class InputHandler {
         return scan.nextLine().trim();
     }
 
-    public long inputPhoneNO(){
+    public String inputPhoneNO(){
         System.out.print("Enter Phone Number:- ");
-        return Long.parseLong(scan.nextLine());
-    }
-
-    public String inputDL(){
-        System.out.print("Enter Driving Licence Number:- ");
         return scan.nextLine().trim();
     }
 }
